@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: David Ruiz
+Curso: Daw1
+Fecha 05/04/2025
+Ejercicio 4
+-->
+<!--Resoluciones de pantalla-->
+<!DOCTYPE resoluciones [
+  <!ELEMENT resoluciones (resolucion*)>
+  <!ELEMENT resolucion EMPTY>
+  <!ATTLIST resolucion nombre CDATA #REQUIRED
+                         alto CDATA #REQUIRED
+                         ancho CDATA #REQUIRED>
+]>
+<resoluciones>
+  <resolucion nombre="VGA" alto="480" ancho="640" />
+  <resolucion nombre="XGA" alto="768" ancho="1024" />
+  <resolucion nombre="HD 1080" alto="1080" ancho="1920" />
+</resoluciones>

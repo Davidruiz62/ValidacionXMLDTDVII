@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Nombre: David Ruiz
+Curso: Daw1
+Fecha 05/04/2025
+Ejercicio 5
+-->
+<!--Albunes de Mortadelo y Filemon-->
+<!DOCTYPE albumsMortadelo [
+  <!ELEMENT albumsMortadelo (album*)>
+  <!ELEMENT album EMPTY>
+  <!ATTLIST album nombre CDATA #REQUIRED
+                   fecha CDATA #REQUIRED>
+]>
+<albumsMortadelo>
+  <album nombre="El sulfato atómico" fecha="1969"/>
+  <album nombre="La caja de diez cerrojos" fecha="1971"/>
+  <album nombre="El otro yo del profesor Bacterio" fecha="1973"/>
+  <album nombre="Los cacharros majaretas" fecha="1974"/>
+</albumsMortadelo>
